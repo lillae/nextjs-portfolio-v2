@@ -19,8 +19,12 @@
 		@apply bg-gray-950 text-primary text-base;
 	}
 
+	body::-webkit-scrollbar {
+		@apply relative z-50 lg:z-0;
+	}
+
 	.snap-container::-webkit-scrollbar {
-		@apply w-0 opacity-0;
+		@apply lg:w-0 lg:opacity-0;
 	}
 	/* .snap-container::-webkit-scrollbar-track {
 		@apply bg-layout/70;
