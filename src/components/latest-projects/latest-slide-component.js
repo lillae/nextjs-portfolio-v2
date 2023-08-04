@@ -20,8 +20,8 @@ const LatestSlide = ({ card }) => {
 	*/
 
 	return (
-		<div className='max-w-[1050px] w-full space-y-5 flex flex-col lg:flex-row items-center justify-between gap-x-9'>
-			<div className='max-h-[400px] w-full mx-auto'>
+		<div className='max-w-full pr-[20px] w-full space-y-5 flex flex-col md:flex-row items-center justify-between gap-x-9'>
+			<div className='h-auto md:max-h-[400px] w-full mx-auto'>
 				<Image
 					src={image.src}
 					width={image.width}

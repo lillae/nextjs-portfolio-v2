@@ -21,7 +21,8 @@ const ProjectsCarousel = ({ strings }) => {
 				type: "progressbar",
 			}}
 			breakpoints={{
-				768: { slidesPerView: 3 },
+				768: { slidesPerView: 2 },
+				1024: { slidesPerView: 3 },
 			}}
 			grabCursor={true}
 			direction='horizontal'

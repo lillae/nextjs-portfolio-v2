@@ -5,7 +5,9 @@ const Hero = ({ strings }) => {
 	const { title, subtitle, btn } = strings;
 
 	return (
-		<section id='home' className='bg-frame-1 snap-start '>
+		<section
+			id='home'
+			className='bg-frame-1 snap-start h-screen md:h-[50vh] lg:h-screen'>
 			<div className='wrapper h-full flex flex-col justify-center items-start space-y-10 -mt-16 pt-150'>
 				<div>
 					<TitleOne>{title}</TitleOne>

@@ -31,7 +31,7 @@
 	} */
 
 	section {
-		@apply w-full h-screen bg-cover bg-no-repeat bg-center;
+		@apply w-full h-auto pt-28 lg:pt-0 lg:h-screen bg-cover bg-no-repeat bg-center;
 	}
 	.wrapper {
 		@apply w-full max-w-container mx-auto px-5 1lg:px-0;

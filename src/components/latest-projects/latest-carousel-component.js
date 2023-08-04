@@ -20,7 +20,7 @@ const LatestCarousel = ({ cards }) => {
 			scrollbar={true}
 			grabCursor={true}
 			modules={[Scrollbar, Keyboard]}
-			className='max-w-full max-h-[400px] w-full'>
+			className='max-w-full max-h-[400px] md:max-h-[230px] lg:max-h-[400px] w-full'>
 			{cards.map((card, index) => (
 				<SwiperSlide
 					key={index}
