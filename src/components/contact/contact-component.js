@@ -6,7 +6,7 @@ const Contact = ({ strings }) => {
 	return (
 		<section
 			id='contact'
-			className='bg-frame-5 snap-start relative flex flex-col justify-center'>
+			className='snap-start relative flex flex-col justify-center'>
 			<div className='wrapper'>
 				<TitleTwo>{title}</TitleTwo>
 			</div>
