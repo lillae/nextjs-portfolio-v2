@@ -6,13 +6,62 @@ module.exports = {
 		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
 	],
 	theme: {
+		screens: {
+			sm: "640px",
+			md: "768px",
+			lg: "1024px",
+			"1lg": "1200px",
+			xl: "1280px",
+			"1xl": "1330px",
+			"2xl": "1536px",
+		},
+
 		extend: {
 			colors: {
 				accent: "#e3ffd8",
 				primary: "#fff",
+				layout: "#1f1d1c",
 			},
 			backgroundImage: {
-				"gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+				"frame-1": "url('/assets/images/backgrounds/frame1.png')",
+				"frame-2": "url('/assets/images/backgrounds/frame2.png')",
+				"frame-3": "url('/assets/images/backgrounds/frame3.png')",
+				"frame-4": "url('/assets/images/backgrounds/frame4.png')",
+				"frame-5": "url('/assets/images/backgrounds/frame5.png')",
+				"footer-gradient":
+					"linear-gradient(to-bottom, rgba(255,255,255,0), rgba(31,29,28,0.10))",
+			},
+			boxShadow: {
+				btn: "rgba(255, 255, 255, 0.14) 0px 0px 10px, rgba(111, 170, 160, 0) 0px 0px 30px, rgba(255, 255, 147, 0.33) 0px 0px 5px",
+				"btn-hover":
+					"0px 0px 10px rgba(255, 255, 147,0.2), 0px 0px 30px rgba(255,255,255, 0.1), 0px 0px 5px rgba(255,255,255, 0.1)",
+			},
+			dropShadow: {
+				headings: "0px 1px 0.3em rgba(255, 255, 255, 0.6)",
+				text: "0px 0px 0.5px #fff",
+			},
+			fontFamily: {
+				saira: ["var(--font-saira)"],
+				inter: ["var(--font-inter)"],
+				noto: ["var(--font-noto)"],
+				starlit: ["var(--font-starlit)"],
+			},
+			fontSize: {
+				15: "15px",
+				17: "17px",
+				22: "22px",
+				40: "40px",
+				64: "64px",
+				74: "74px",
+				100: "100px",
+			},
+			maxWidth: {
+				container: "1100px",
+			},
+			spacing: {
+				50: "50px",
+				95: "95px",
+				150: "150px",
 			},
 		},
 	},
