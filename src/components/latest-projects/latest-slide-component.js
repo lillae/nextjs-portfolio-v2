@@ -20,7 +20,7 @@ const LatestSlide = ({ card }) => {
 	*/
 
 	return (
-		<div className='max-w-full pr-[20px] w-full space-y-5 flex flex-col md:flex-row items-center justify-between gap-x-9'>
+		<div className='max-w-full pr-[20px] w-full space-y-5 flex flex-col sm:flex-row items-center justify-between gap-x-9'>
 			<div className='h-auto md:max-h-[400px] w-full mx-auto'>
 				<Image
 					src={image.src}
@@ -41,7 +41,7 @@ const LatestSlide = ({ card }) => {
 						))}
 					</div>
 				</div>
-				<p className='text-15 h-[60px]'>{description}</p>
+				<p className='text-sm sm:text-15 h-[60px]'>{description}</p>
 				<div className='space-x-5 pt-5'>
 					{stack.map(({ name }, index) => (
 						<Stack key={index}>{name}</Stack>
