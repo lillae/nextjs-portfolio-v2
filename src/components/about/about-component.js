@@ -12,17 +12,18 @@ const About = ({ strings }) => {
 					<div className='space-y-8'>
 						<div className='max-w-[600px] w-full'>
 							<TitleTwo className=''>{title}</TitleTwo>
+							<div className='hidden mt-8 max-w-[500px] w-full space-y-4 '>
+								<TitleThree className=''>{title_2}</TitleThree>
+								<div className='flex flex-wrap  gap-x-4 gap-y-2'>
+									{stack.map(({ name }, index) => (
+										<StackTag key={index}>{name}</StackTag>
+									))}
+								</div>
+							</div>
 							<p>{intro.text}</p>
 						</div>
-						<div className='mt-8 max-w-[500px] w-full space-y-4 border-l border-accent pl-4'>
-							<TitleThree className=''>{title_2}</TitleThree>
-							<div className='flex flex-wrap  gap-x-4 gap-y-2'>
-								{stack.map(({ name }, index) => (
-									<StackTag key={index}>{name}</StackTag>
-								))}
-							</div>
-						</div>
-						<div>
+
+						<div className='p-4 bg-layout/40 rounded-[20px]'>
 							<TitleTwo>Experience</TitleTwo>
 							{experience.map(
 								({ year, company, description, stack }, index) => (
