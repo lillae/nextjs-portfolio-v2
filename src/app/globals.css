@@ -43,7 +43,7 @@
 		@apply w-full h-auto 1xl:h-screen pb-28 first:pb-0 1xl:pb-0  bg-cover bg-no-repeat bg-center;
 	}
 	.wrapper {
-		@apply w-full max-w-container mx-auto px-5 1lg:px-0;
+		@apply w-full max-w-[600px] lg:max-w-container mx-auto px-5 1lg:px-0;
 	}
 
 	.active {

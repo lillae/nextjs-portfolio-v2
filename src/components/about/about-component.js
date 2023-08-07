@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { TitleTwo } from "@/components/titles";
 import { StackTag } from "@/components/icons-tags";
@@ -8,8 +10,8 @@ const About = ({ strings }) => {
 	return (
 		<section id='about' className='snap-start flex flex-col justify-center'>
 			<div className='wrapper w-full flex flex-col'>
-				<TitleTwo extraStyles='flex lg:hidden text-center'>{title}</TitleTwo>
-				<div className='flex flex-col-reverse lg:flex-row items-center justify-between'>
+				<TitleTwo className='block lg:hidden text-center'>{title}</TitleTwo>
+				<div className='flex flex-col-reverse lg:flex-row items-center justify-between '>
 					<div className='space-y-8'>
 						<div className='max-w-[600px] w-full'>
 							<TitleTwo className='hidden lg:block'>{title}</TitleTwo>
@@ -53,13 +55,13 @@ const About = ({ strings }) => {
 							</div>
 						</div>
 					</div>
-					<div className='max-w-full lg:max-w-[450px] w-full mb-5 lg:mb-0'>
+					<div className='max-w-full lg:max-w-[350px] 1xl:max-w-[450px] w-full mb-5 lg:mb-0 overflow-hidden relative'>
 						<Image
 							src={images.avatar.src}
 							alt={images.avatar.alt}
 							width={images.avatar.width}
 							height={images.avatar.height}
-							className='object-center object-cover'
+							className='object-center md:object-contain lg:object-cover'
 						/>
 					</div>
 				</div>
