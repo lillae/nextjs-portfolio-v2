@@ -15,7 +15,7 @@ const About = ({ strings }) => {
 							<TitleTwo className='hidden lg:block'>{title}</TitleTwo>
 							<p>{intro.text}</p>
 						</div>
-						<div className='p-4 bg-layout/40 rounded-[20px]'>
+						<div className='px-4 pb-6 bg-layout/40 rounded-[20px]'>
 							<TitleTwo>Experience</TitleTwo>
 							{experience.map(
 								({ year, company, description, stack }, index) => (
@@ -34,7 +34,7 @@ const About = ({ strings }) => {
 													<p key={index}>{text}</p>
 												))}
 											</div>
-											<div className='space-y-4 lg:space-y-0 lg:space-x-4'>
+											<div className='flex flex-wrap lg:space-x-4'>
 												{stack.map(({ name }, index) => (
 													<StackTag key={index}>{name}</StackTag>
 												))}

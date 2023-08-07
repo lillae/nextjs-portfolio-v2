@@ -20,15 +20,15 @@
 	}
 
 	body::-webkit-scrollbar {
-		@apply w-[6px] relative z-50 1xl:z-0;
+		@apply w-[8px] relative z-50 1xl:z-0;
 	}
 
 	body::-webkit-scrollbar-track {
-		@apply bg-layout/70;
+		@apply bg-layout/80;
 	}
 
 	body::-webkit-scrollbar-thumb {
-		@apply bg-accent  rounded-sm;
+		@apply shadow-scroll bg-transparent  rounded-sm;
 	}
 
 	.snap-container {

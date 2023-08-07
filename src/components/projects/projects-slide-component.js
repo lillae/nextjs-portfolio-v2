@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { StackTag, Icons } from "@/components/icons-tags";
+import { TitleFour } from "@/components/titles";
 
 const ProjectsSlide = ({ card }) => {
 	const { title, stack, image, description, icons } = card;
@@ -16,7 +17,7 @@ const ProjectsSlide = ({ card }) => {
 				/>
 			</div>
 			<div className='flex justify-between'>
-				<h4 className='text-base uppercase'>{title}</h4>
+				<TitleFour>{title}</TitleFour>
 				<div className='flex items-center justify-center space-x-2'>
 					{icons.map(({ icon, href }, index) => (
 						<Icons key={index} href={href}>
