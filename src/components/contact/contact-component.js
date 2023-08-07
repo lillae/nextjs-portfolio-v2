@@ -1,5 +1,5 @@
 import { TitleTwo } from "@/components/titles";
-import { ContactFooter } from ".";
+import { ContactFooter, ContactForm } from ".";
 
 const Contact = ({ strings }) => {
 	const { title } = strings;
@@ -7,8 +7,9 @@ const Contact = ({ strings }) => {
 		<section
 			id='contact'
 			className='snap-start relative flex flex-col justify-center'>
-			<div className='wrapper'>
+			<div className='wrapper flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-between'>
 				<TitleTwo>{title}</TitleTwo>
+				<ContactForm strings={strings} />
 			</div>
 			<ContactFooter />
 		</section>

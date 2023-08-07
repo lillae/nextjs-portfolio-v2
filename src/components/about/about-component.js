@@ -53,7 +53,7 @@ const About = ({ strings }) => {
 							</div>
 						</div>
 					</div>
-					<div className='max-w-[450px] w-full mb-5 lg:mb-0'>
+					<div className='max-w-full lg:max-w-[450px] w-full mb-5 lg:mb-0'>
 						<Image
 							src={images.avatar.src}
 							alt={images.avatar.alt}
