@@ -27,7 +27,7 @@ const NavDesktop = ({ strings }) => {
 						rel='noopener noreferrer'
 						target='_blank'
 						key={index}
-						className='pl-5 py-2 1xl:py-3 text-xl'>
+						className='px-5 1lg:px-0 1lg:pl-5 py-2 1xl:py-3 text-xl'>
 						{icon}
 					</Link>
 				))}
