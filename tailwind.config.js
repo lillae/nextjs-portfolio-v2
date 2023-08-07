@@ -16,7 +16,8 @@ module.exports = {
 			"1lg": "1150px",
 			xl: "1280px",
 			"1xl": "1330px",
-			"2xl": "1536px",
+			"2xl": "1400px",
+			"3xl": "1536px",
 		},
 
 		extend: {
@@ -28,7 +29,7 @@ module.exports = {
 			backgroundImage: {
 				mobile: "url('/assets/images/backgrounds/bg-xs.png')",
 				tablet: "url('/assets/images/backgrounds/bg-tablet.png')",
-				large: "url('/assets/images/backgrounds/bg-lg.png')",
+				large: "url('/assets/images/backgrounds/bg-lg-2.png')",
 				desktop: "url('/assets/images/backgrounds/frame4.png')",
 				"frame-1": "url('/assets/images/backgrounds/frame1.png')",
 				"frame-2": "url('/assets/images/backgrounds/frame2.png')",
