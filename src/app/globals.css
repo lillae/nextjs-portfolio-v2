@@ -32,7 +32,7 @@
 	}
 
 	.snap-container {
-		@apply bg-mobile md:bg-tablet lg:bg-desktop bg-cover bg-no-repeat bg-center lg:bg-top;
+		@apply bg-mobile md:bg-tablet lg:bg-desktop bg-cover bg-no-repeat bg-bottom lg:bg-center;
 	}
 
 	.snap-container::-webkit-scrollbar {
