@@ -133,7 +133,7 @@ export const strings = {
 		],
 	},
 	projects: {
-		title: "Past projects",
+		title: "Projects",
 		subtitle: "Simple React and JavaScript projects",
 		cards: [
 			{
