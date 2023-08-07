@@ -20,7 +20,7 @@
 	}
 
 	body::-webkit-scrollbar {
-		@apply relative z-50 1xl:z-0;
+		@apply w-[6px] relative z-50 1xl:z-0;
 	}
 
 	body::-webkit-scrollbar-track {
