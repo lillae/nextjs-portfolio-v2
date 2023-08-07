@@ -280,8 +280,11 @@ export const strings = {
 	},
 	about: {
 		title: "About me",
-		title_2: "Stack",
-		intro: [
+		title_2: "Tech stack",
+		intro: {
+			text: "Since I started to learn Frontend developement in 2020 I'm constantly working on improving my skills to broaden my knowledge in the JavaScript and React ecosystem. I have a BSc. degree in Earth Science - Geology, I like to spend my free time outdoor hiking, traveling and capturing moments through photography.",
+		},
+		intro_1: [
 			{
 				text: "Since I started to learn Frontend developement in 2020 I'm constantly working on improving my skills to broaden my knowledge in the JavaScript and React ecosystem.",
 			},
@@ -290,6 +293,27 @@ export const strings = {
 			},
 			{
 				text: "I have a BSc. degree in Earth Science - Geology, I like to spend my free time outdoor hiking, traveling and capturing moments through photography.",
+			},
+		],
+
+		experience: [
+			{
+				year: "March - Oct 2022",
+				company: "Frontend Developer • Leanlastic",
+				description: [
+					{ text: "- Worked on different projects with international clients" },
+					{
+						text: "- My main task was to build UI's for web apps with Next.js.",
+					},
+					{ text: "- We used Jest and Cypress for testing" },
+				],
+				stack: [
+					{ name: "JavaScript" },
+					{ name: "Next.js" },
+					{ name: "Tailwind CSS" },
+					{ name: "Jest" },
+					{ name: "Cypress" },
+				],
 			},
 		],
 		stack: [
@@ -303,35 +327,78 @@ export const strings = {
 				name: "Next.js",
 			},
 			{
+				name: "Jest",
+			},
+			{
+				name: "Cypress",
+			},
+			{
 				name: "Tailwind CSS",
 			},
 			{
 				name: "CSS",
 			},
 			{
+				name: "SASS",
+			},
+			{
 				name: "HTML",
 			},
+
 			{
 				name: "Git",
 			},
 			{
 				name: "Github",
 			},
-			{
-				name: "",
-			},
-			{
-				name: "",
-			},
 		],
 		images: {
 			avatar: {
-				src: "/assets/images/avatar-bw.jpg",
-				width: "",
-				height: "",
-				alt: "",
+				src: "/assets/images/avatar.jpg",
+				width: "1152",
+				height: "1152",
+				alt: "Avatar",
 			},
 		},
+	},
+	stack: {
+		title: "Stack",
+		stack: [
+			{
+				name: "JavaScript",
+			},
+			{
+				name: "React",
+			},
+			{
+				name: "Next.js",
+			},
+			{
+				name: "Jest",
+			},
+			{
+				name: "Cypress",
+			},
+			{
+				name: "Tailwind CSS",
+			},
+			{
+				name: "CSS",
+			},
+			{
+				name: "SASS",
+			},
+			{
+				name: "HTML",
+			},
+
+			{
+				name: "Git",
+			},
+			{
+				name: "Github",
+			},
+		],
 	},
 	contact: {
 		title: "Contact",

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import useInView from "react-cool-inview";
 
-import { Stack, Icons } from "@/components/icons-stack";
+import { StackTag, Icons } from "@/components/icons-tags";
 
 const LatestSlide = ({ card }) => {
 	const { title, stack, image, description, icons } = card;
@@ -44,7 +44,7 @@ const LatestSlide = ({ card }) => {
 				<p className='text-sm sm:text-15 h-[60px]'>{description}</p>
 				<div className='space-x-5 pt-5'>
 					{stack.map(({ name }, index) => (
-						<Stack key={index}>{name}</Stack>
+						<StackTag key={index}>{name}</StackTag>
 					))}
 				</div>
 			</div>

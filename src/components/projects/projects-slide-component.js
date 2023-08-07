@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { Stack, Icons } from "@/components/icons-stack";
+import { StackTag, Icons } from "@/components/icons-tags";
 
 const ProjectsSlide = ({ card }) => {
 	const { title, stack, image, description, icons } = card;
@@ -28,7 +28,7 @@ const ProjectsSlide = ({ card }) => {
 			<p className='text-15 h-[72px]'>{description}</p>
 			<div className='space-x-5 pb-8'>
 				{stack.map(({ name }, index) => (
-					<Stack key={index}>{name}</Stack>
+					<StackTag key={index}>{name}</StackTag>
 				))}
 			</div>
 		</div>
