@@ -21,7 +21,7 @@ const About = ({ strings }) => {
 								({ year, company, description, stack }, index) => (
 									<div
 										key={index}
-										className='flex items-start justify-start gap-4'>
+										className='flex flex-col lg:flex-row items-start justify-start lg:gap-x-4'>
 										<div className='py-[0.5px]'>
 											<small className='uppercase font-medium'>{year}</small>
 										</div>
@@ -34,7 +34,7 @@ const About = ({ strings }) => {
 													<p key={index}>{text}</p>
 												))}
 											</div>
-											<div className='space-x-4'>
+											<div className='space-y-4 lg:space-y-0 lg:space-x-4'>
 												{stack.map(({ name }, index) => (
 													<StackTag key={index}>{name}</StackTag>
 												))}
@@ -53,7 +53,7 @@ const About = ({ strings }) => {
 							</div>
 						</div>
 					</div>
-					<div className='max-w-[450px] w-full'>
+					<div className='max-w-[450px] w-full mb-5 lg:mb-0'>
 						<Image
 							src={images.avatar.src}
 							alt={images.avatar.alt}
