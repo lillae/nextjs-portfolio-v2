@@ -14,7 +14,6 @@ const About = ({ strings }) => {
 				<div className='flex flex-col-reverse lg:flex-row items-center justify-between '>
 					<div className='space-y-8'>
 						<div className='max-w-[600px] w-full'>
-							<TitleTwo className='hidden lg:block'>{title}</TitleTwo>
 							<p>{intro.text}</p>
 						</div>
 						<div className='px-4 pb-6 bg-layout/40 rounded-[20px]'>
