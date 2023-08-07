@@ -20,7 +20,7 @@
 	}
 
 	body::-webkit-scrollbar {
-		@apply relative z-50 lg:z-0;
+		@apply relative z-50 1xl:z-0;
 	}
 
 	.snap-container {
@@ -28,7 +28,7 @@
 	}
 
 	.snap-container::-webkit-scrollbar {
-		@apply lg:w-0 lg:opacity-0;
+		@apply 1xl:w-0 1xl:opacity-0;
 	}
 	/* .snap-container::-webkit-scrollbar-track {
 		@apply bg-layout/70;
