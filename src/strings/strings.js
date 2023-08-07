@@ -10,12 +10,7 @@ export const strings = {
 				ref: "",
 			},
 			{
-				title: "Proj.-I.",
-				href: "#latest",
-				ref: "",
-			},
-			{
-				title: "Proj.-II.",
+				title: "Projects",
 				href: "#projects",
 				ref: "",
 			},
