@@ -8,21 +8,13 @@ const About = ({ strings }) => {
 	return (
 		<section id='about' className='snap-start flex flex-col justify-center'>
 			<div className='wrapper w-full flex flex-col'>
-				<div className='flex items-center justify-between'>
+				<TitleTwo extraStyles='flex lg:hidden text-center'>{title}</TitleTwo>
+				<div className='flex flex-col-reverse lg:flex-row items-center justify-between'>
 					<div className='space-y-8'>
 						<div className='max-w-[600px] w-full'>
-							<TitleTwo className=''>{title}</TitleTwo>
-							<div className='hidden mt-8 max-w-[500px] w-full space-y-4 '>
-								<TitleThree className=''>{title_2}</TitleThree>
-								<div className='flex flex-wrap  gap-x-4 gap-y-2'>
-									{stack.map(({ name }, index) => (
-										<StackTag key={index}>{name}</StackTag>
-									))}
-								</div>
-							</div>
+							<TitleTwo className='hidden lg:block'>{title}</TitleTwo>
 							<p>{intro.text}</p>
 						</div>
-
 						<div className='p-4 bg-layout/40 rounded-[20px]'>
 							<TitleTwo>Experience</TitleTwo>
 							{experience.map(
@@ -51,6 +43,14 @@ const About = ({ strings }) => {
 									</div>
 								)
 							)}
+						</div>
+						<div className='mt-8 max-w-[500px] w-full space-y-4 '>
+							<TitleThree className=''>{title_2}</TitleThree>
+							<div className='flex flex-wrap  gap-x-4 gap-y-2'>
+								{stack.map(({ name }, index) => (
+									<StackTag key={index}>{name}</StackTag>
+								))}
+							</div>
 						</div>
 					</div>
 					<div className='max-w-[450px] w-full'>

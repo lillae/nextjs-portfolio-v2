@@ -1,9 +1,9 @@
 import { starlitDrive } from "@/app/fonts";
 
-const TitleTwo = ({ children }) => {
+const TitleTwo = ({ children, extraStyles }) => {
 	return (
 		<h2
-			className={`${starlitDrive.variable} font-starlit text-74 drop-shadow-headings leading-tight`}>
+			className={`${extraStyles} ${starlitDrive.variable} font-starlit text-74 drop-shadow-headings leading-tight`}>
 			{children}
 		</h2>
 	);
