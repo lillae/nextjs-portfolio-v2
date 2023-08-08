@@ -15,7 +15,7 @@ const NavDesktop = ({ strings }) => {
 						<Link
 							href={href}
 							className={`${
-								pathname == href ? "active" : ""
+								pathname === href ? "drop-shadow-text" : ""
 							} hover:drop-shadow-text`}>
 							{title}
 						</Link>

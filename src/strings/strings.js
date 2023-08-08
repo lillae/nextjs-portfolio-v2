@@ -436,7 +436,7 @@ export const strings = {
 		title: "Contact",
 		text: "If you have any questions or enquiries feel free to drop me a message, I'll be happy to answer.",
 		form: {
-			label_name: "Name",
+			label_name: "Full Name",
 			label_email: "Email",
 			label_subject: "Subject",
 			label_msg: "Message",

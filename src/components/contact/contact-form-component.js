@@ -3,13 +3,13 @@ import { ButtonTwo } from "@/components/buttons";
 const ContactForm = ({ strings }) => {
 	const { form } = strings;
 	return (
-		<form className='flex flex-col w-[90%] lg:w-full mx-auto text-[13px] text-white'>
+		<form className='flex flex-col w-[90%] lg:w-full mx-auto lg:mx-0 max-w-[600px] text-[13px] text-white'>
 			<div className='w-full h-auto flex flex-col lg:flex-row justify-center lg:justify-evenly items-center'>
-				<div className='flex flex-col lg:max-w-[595px] w-full'>
+				<div className='flex flex-col w-full'>
 					<div className='space-y-3 mb-6'>
 						<div className='flex flex-col lg:flex-row w-full justify-between lg:space-x-4 space-y-3 lg:space-y-0'>
 							<div className='w-full flex flex-col space-y-1'>
-								<label htmlFor='name'>Name:</label>
+								<label htmlFor='name'>{form.label_name}</label>
 								<input
 									type='text'
 									name='name'
@@ -26,7 +26,7 @@ const ContactForm = ({ strings }) => {
 								</div>
 							</div>
 							<div className='w-full flex flex-col space-y-1'>
-								<label htmlFor='email'>Email:</label>
+								<label htmlFor='email'>{form.label_email}</label>
 								<input
 									type='email'
 									name='email'
@@ -44,7 +44,7 @@ const ContactForm = ({ strings }) => {
 							</div>
 						</div>
 						<div className='flex flex-col space-y-1'>
-							<label htmlFor='subject'>Subject:</label>
+							<label htmlFor='subject'>{form.label_subject}</label>
 							<input
 								type='text'
 								name='subject'
@@ -61,7 +61,7 @@ const ContactForm = ({ strings }) => {
 							</div>
 						</div>
 						<div className='flex flex-col space-y-1'>
-							<label htmlFor='message'>Message:</label>
+							<label htmlFor='message'>{form.label_msg}</label>
 							<textarea
 								type='text'
 								name='message'
