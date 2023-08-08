@@ -2,7 +2,7 @@ import { SlSocialGithub } from "react-icons/sl";
 import { GoArrowUpRight } from "react-icons/go";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
 import { GiAstronautHelmet } from "react-icons/gi";
-import { AiOutlineMail} from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 
 export const strings = {
 	header: {
@@ -52,7 +52,7 @@ export const strings = {
 			},
 			{
 				title: "Github",
-				href: "www.github.com/lillae",
+				href: "https://www.github.com/lillae",
 				ref: "",
 				icon: <SlSocialGithub />,
 			},
