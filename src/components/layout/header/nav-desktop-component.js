@@ -8,7 +8,7 @@ const NavDesktop = ({ strings }) => {
 	const pathname = usePathname();
 
 	return (
-		<nav className='hidden lg:block w-full h-full max-w-container mx-auto'>
+		<nav className='hidden md:block w-full h-full max-w-container mx-auto'>
 			<ul className='w-full h-full flex items-center justify-end uppercase'>
 				{nav.map(({ title, href }, index) => (
 					<li key={index} className='list-none px-5 py-2 1xl:py-3'>

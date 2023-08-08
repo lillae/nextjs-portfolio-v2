@@ -1,5 +1,8 @@
 import { SlSocialGithub } from "react-icons/sl";
 import { GoArrowUpRight } from "react-icons/go";
+import { HiOutlineComputerDesktop } from "react-icons/hi2";
+import { GiAstronautHelmet } from "react-icons/gi";
+import { AiOutlineMail} from "react-icons/ai";
 
 export const strings = {
 	header: {
@@ -13,16 +16,45 @@ export const strings = {
 				title: "Projects",
 				href: "#projects",
 				ref: "",
+				icon: <HiOutlineComputerDesktop />,
 			},
 			{
 				title: "About",
 				href: "#about",
 				ref: "",
+				icon: <GiAstronautHelmet />,
 			},
 			{
 				title: "Contact",
 				href: "#contact",
 				ref: "",
+				icon: <AiOutlineMail />,
+			},
+		],
+		nav_mobile: [
+			{
+				title: "Projects",
+				href: "#projects",
+				ref: "",
+				icon: <HiOutlineComputerDesktop />,
+			},
+			{
+				title: "About",
+				href: "#about",
+				ref: "",
+				icon: <GiAstronautHelmet />,
+			},
+			{
+				title: "Contact",
+				href: "#contact",
+				ref: "",
+				icon: <AiOutlineMail />,
+			},
+			{
+				title: "Github",
+				href: "www.github.com/lillae",
+				ref: "",
+				icon: <SlSocialGithub />,
 			},
 		],
 		icons: [

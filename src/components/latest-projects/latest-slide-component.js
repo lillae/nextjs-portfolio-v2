@@ -43,7 +43,7 @@ const LatestSlide = ({ card }) => {
 					</div>
 				</div>
 				<p className='text-sm sm:text-15 h-[60px]'>{description}</p>
-				<div className='space-x-5 pt-5'>
+				<div className='space-x-4 pt-5'>
 					{stack.map(({ name }, index) => (
 						<StackTag key={index}>{name}</StackTag>
 					))}

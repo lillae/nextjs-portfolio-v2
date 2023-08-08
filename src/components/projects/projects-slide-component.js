@@ -27,7 +27,7 @@ const ProjectsSlide = ({ card }) => {
 				</div>
 			</div>
 			<p className='text-15 h-[72px]'>{description}</p>
-			<div className='space-x-5 pb-8'>
+			<div className='space-x-4 pb-8'>
 				{stack.map(({ name }, index) => (
 					<StackTag key={index}>{name}</StackTag>
 				))}
