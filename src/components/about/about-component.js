@@ -35,7 +35,7 @@ const About = ({ strings }) => {
 													<p key={index}>{text}</p>
 												))}
 											</div>
-											<div className='flex flex-wrap lg:space-x-4'>
+											<div className='flex flex-wrap gap-4'>
 												{stack.map(({ name }, index) => (
 													<StackTag key={index}>{name}</StackTag>
 												))}
@@ -47,7 +47,7 @@ const About = ({ strings }) => {
 						</div>
 						<div className='mt-8 max-w-full lg:max-w-[500px] w-full space-y-4 '>
 							<TitleThree className=''>{title_2}</TitleThree>
-							<div className='flex flex-wrap  gap-x-4 gap-y-2'>
+							<div className='flex flex-wrap  gap-4'>
 								{stack.map(({ name }, index) => (
 									<StackTag key={index}>{name}</StackTag>
 								))}
