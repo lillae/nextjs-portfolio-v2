@@ -386,7 +386,7 @@ export const strings = {
 		],
 		images: {
 			avatar: {
-				src: "/assets/images/avatar.jpg",
+				src: "/assets/images/avatar.webp",
 				width: "1152",
 				height: "1152",
 				alt: "Avatar",
