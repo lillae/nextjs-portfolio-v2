@@ -40,9 +40,9 @@ module.exports = {
 					"linear-gradient(to-bottom, rgba(255,255,255,0), rgba(31,29,28,0.10))",
 			},
 			boxShadow: {
-				btn: "rgba(255, 255, 255, 0.14) 0px 0px 10px, rgba(111, 170, 160, 0) 0px 0px 30px, rgba(255, 255, 147, 0.33) 0px 0px 5px",
+				btn: "rgba(255, 255, 255, 0.14) 0px 0px 30px, rgba(111, 170, 160, 0) 0px 0px 10px, rgba(255, 255, 147, 0.33) 0px 0px 1px",
 				"btn-hover":
-					"0px 0px 10px rgba(255, 255, 147,0.2), 0px 0px 30px rgba(255,255,255, 0.1), 0px 0px 5px rgba(255,255,255, 0.1)",
+					"0px 0px 10px rgba(255, 255, 147,0.2), 0px 0px 0px rgba(255,255,255, 0.1), 0px 0px 10px rgba(255,255,255, 0.1)",
 				scroll: "inset 0 0 2px white",
 			},
 			dropShadow: {

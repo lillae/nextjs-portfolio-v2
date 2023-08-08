@@ -435,9 +435,12 @@ export const strings = {
 	contact: {
 		title: "Contact",
 		text: "If you have any questions or enquiries feel free to drop me a message, I'll be happy to answer.",
-		btn: {
-			text: "Get in Touch",
-			href: "/",
+		form: {
+			label_name: "Name",
+			label_email: "Email",
+			label_subject: "Subject",
+			label_msg: "Message",
+			btn: "Submit",
 		},
 	},
 	footer: {
