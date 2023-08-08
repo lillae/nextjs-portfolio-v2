@@ -28,7 +28,7 @@ module.exports = {
 			},
 			backgroundImage: {
 				mobile: "url('/assets/images/backgrounds/bg-xs.png')",
-				tablet: "url('/assets/images/backgrounds/bg-tablet.png')",
+				tablet: "url('/assets/images/backgrounds/bg-xs.png')",
 				large: "url('/assets/images/backgrounds/bg-lg.png')",
 				desktop: "url('/assets/images/backgrounds/frame4-grainy.png')",
 				"frame-1": "url('/assets/images/backgrounds/frame1.png')",
