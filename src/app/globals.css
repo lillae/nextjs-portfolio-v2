@@ -45,11 +45,11 @@
 
 	#projects,
 	#about {
-		@apply md:pt-20;
+		@apply md:pt-20 1xl:pt-0;
 	}
 
 	#projects {
-		@apply pb-70;
+		@apply pb-70 1xl:pb-0;
 	}
 
 	.wrapper {
