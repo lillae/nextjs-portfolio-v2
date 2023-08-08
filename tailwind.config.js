@@ -30,7 +30,7 @@ module.exports = {
 				mobile: "url('/assets/images/backgrounds/bg-xs.png')",
 				tablet: "url('/assets/images/backgrounds/bg-tablet.png')",
 				large: "url('/assets/images/backgrounds/bg-lg.png')",
-				desktop: "url('/assets/images/backgrounds/frame4.png')",
+				desktop: "url('/assets/images/backgrounds/frame4-grainy.png')",
 				"frame-1": "url('/assets/images/backgrounds/frame1.png')",
 				"frame-2": "url('/assets/images/backgrounds/frame2.png')",
 				"frame-3": "url('/assets/images/backgrounds/frame3.png')",
