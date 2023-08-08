@@ -44,7 +44,8 @@
 	}
 
 	#projects,
-	#about {
+	#about,
+	#contact {
 		@apply md:pt-20 1xl:pt-0;
 	}
 
