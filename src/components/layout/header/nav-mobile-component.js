@@ -10,7 +10,7 @@ const NavMobile = ({ nav }) => {
 					<li key={index} className='list-none text-xs uppercase px-5 py-2'>
 						<Link
 							href={href}
-							className='flex flex-col items-center justify-center gap-y-1 text-white/90 hover:drop-shadow-text'>
+							className='flex flex-col items-center justify-center gap-y-1 text-white hover:drop-shadow-text'>
 							{icon}
 							{title}
 						</Link>
