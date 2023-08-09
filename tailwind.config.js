@@ -27,10 +27,10 @@ module.exports = {
 				layout: "#1f1d1c",
 			},
 			backgroundImage: {
-				mobile: "url('/assets/images/backgrounds/bg-xs-2.webp')",
-				tablet: "url('/assets/images/backgrounds/bg-xs.webp')",
-				large: "url('/assets/images/backgrounds/bg-lg.webp')",
-				desktop: "url('/assets/images/backgrounds/frame4-grainy.webp')",
+				mobile: "url('/assets/images/backgrounds/bg-xs-2.jpg')",
+				tablet: "url('/assets/images/backgrounds/bg-xs.jpg')",
+				large: "url('/assets/images/backgrounds/bg-lg.jpg')",
+				desktop: "url('/assets/images/backgrounds/frame4-grainy.jpg')",
 				"footer-gradient":
 					"linear-gradient(to-bottom, rgba(255,255,255,0), rgba(31,29,28,0.10))",
 			},

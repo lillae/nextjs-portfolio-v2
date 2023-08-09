@@ -40,7 +40,7 @@
 	}
 
 	section {
-		@apply w-full h-auto 1xl:h-screen pb-150 first:pb-0 1xl:pb-0  bg-cover bg-no-repeat bg-center;
+		@apply w-full h-auto 1xl:h-screen pb-150 first:pb-0 1xl:pb-0  bg-cover bg-no-repeat bg-center relative;
 	}
 
 	#projects,
