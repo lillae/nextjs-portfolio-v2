@@ -1,13 +1,22 @@
 "use client";
 
+import React, { useState, useEffect } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import { BsCheck2Circle } from "react-icons/bs";
 import { sendEmail } from "@/utils/send-email";
 
 import { ButtonTwo } from "@/components/buttons";
 
 const ContactForm = ({ strings }) => {
 	const { form } = strings;
+	const [isSent, setIsSent] = useState(false);
+
+	useEffect(() => {
+		setTimeout(() => {
+			if (isSent) setIsSent(false);
+		}, 2000);
+	}, [isSent]);
 
 	const formik = useFormik({
 		initialValues: {
@@ -31,6 +40,7 @@ const ContactForm = ({ strings }) => {
 
 		onSubmit: async (values, { resetForm }) => {
 			await sendEmail(values);
+			setIsSent(true);
 			resetForm({ values: "" });
 		},
 	});
@@ -115,6 +125,14 @@ const ContactForm = ({ strings }) => {
 						</div>
 					</div>
 					<ButtonTwo type='submit'>Submit</ButtonTwo>
+					<div className='h-[25px]'>
+						{isSent && (
+							<div className='w-fit mx-auto flex items-center justify-center gap-x-2 mt-4'>
+								<BsCheck2Circle className='text-accent text-2xl' />
+								<p>Message sent</p>
+							</div>
+						)}
+					</div>
 				</div>
 			</div>
 		</form>

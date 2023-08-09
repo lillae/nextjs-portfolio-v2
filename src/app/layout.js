@@ -1,5 +1,5 @@
 import "./globals.css";
-import { saira, inter } from "./fonts";
+import { saira } from "./fonts";
 import { strings } from "../strings/strings";
 
 import { Header, Footer } from "@/components/layout";
