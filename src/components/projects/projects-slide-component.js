@@ -16,21 +16,23 @@ const ProjectsSlide = ({ card }) => {
 					className='object-cover object-center'
 				/>
 			</div>
-			<div className='flex justify-between'>
-				<TitleFour>{title}</TitleFour>
-				<div className='flex items-center justify-center space-x-2'>
-					{icons.map(({ icon, href }, index) => (
-						<Icons key={index} href={href}>
-							{icon}
-						</Icons>
+			<div className='content space-y-4'>
+				<div className='flex justify-between'>
+					<TitleFour>{title}</TitleFour>
+					<div className='flex items-center justify-center space-x-2'>
+						{icons.map(({ icon, href }, index) => (
+							<Icons key={index} href={href}>
+								{icon}
+							</Icons>
+						))}
+					</div>
+				</div>
+				<p className='text-15 lg:h-[72px]'>{description}</p>
+				<div className='space-x-4 pb-8'>
+					{stack.map(({ name }, index) => (
+						<StackTag key={index}>{name}</StackTag>
 					))}
 				</div>
-			</div>
-			<p className='text-15 h-[72px]'>{description}</p>
-			<div className='space-x-4 pb-8'>
-				{stack.map(({ name }, index) => (
-					<StackTag key={index}>{name}</StackTag>
-				))}
 			</div>
 		</div>
 	);
