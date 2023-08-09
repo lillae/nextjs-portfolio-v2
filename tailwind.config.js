@@ -30,7 +30,7 @@ module.exports = {
 			backgroundImage: {
 				mobile: "url('/assets/images/backgrounds/bg-xs-2.jpg')",
 				tablet: "url('/assets/images/backgrounds/bg-xs.jpg')",
-				large: "url('/assets/images/backgrounds/bg-lg.jpg')",
+				large: "url('/assets/images/backgrounds/bg-lg-1.png')",
 				desktop: "url('/assets/images/backgrounds/frame4-grainy.jpg')",
 				"footer-gradient":
 					"linear-gradient(to-bottom, rgba(255,255,255,0), rgba(31,29,28,0.10))",
