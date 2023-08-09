@@ -1,5 +1,4 @@
 import { Hero } from "@/components/hero";
-import { Header } from "@/components/layout";
 import { Projects } from "@/components/projects";
 import { About } from "@/components/about";
 import { Contact } from "@/components/contact";

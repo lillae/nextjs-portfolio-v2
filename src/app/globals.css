@@ -28,7 +28,7 @@
 	}
 
 	body::-webkit-scrollbar-thumb {
-		@apply shadow-scroll bg-transparent  rounded-sm;
+		@apply bg-accent bg-transparent  rounded-sm;
 	}
 
 	.snap-container {
