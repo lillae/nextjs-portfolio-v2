@@ -6,7 +6,7 @@ const Hero = ({ strings }) => {
 	return (
 		<section
 			id='home'
-			className='snap-start h-[calc(100vh-80px)] md:h-[calc(100vh+80px)] 1xl:h-screen'>
+			className='snap-start h-[calc(100vh-80px)] md:h-[calc(100vh+80px)] 1xl:h-screen 1xl:pt-20'>
 			<div className='wrapper h-full flex flex-col justify-center items-center lg:items-start space-y-10'>
 				<div className='pb-16'>
 					<TitleOne>{title}</TitleOne>
