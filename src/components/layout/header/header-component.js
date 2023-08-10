@@ -24,7 +24,7 @@ const Header = ({ strings }) => {
 			className={`${
 				scrollPos > 0
 					? "1xl:hidden"
-					: "bg-layout/10 backdrop-blur-md 1xl:backdrop-blur-none w-full h-20 fixed bottom-0 md:top-0 left-0 z-50"
+					: "bg-layout/10 backdrop-blur-md 1xl:bg-transparent 1xl:backdrop-blur-none w-full h-20 fixed bottom-0 md:top-0 left-0 z-50"
 			} 
 			`}>
 			<NavDesktop strings={strings} />
