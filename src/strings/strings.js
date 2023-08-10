@@ -166,7 +166,7 @@ export const strings = {
 	},
 	projects: {
 		title: "Projects",
-		subtitle: "Past projects I made at the beginning",
+		subtitle: "Some of my past beginner projects",
 		cards: [
 			{
 				title: "Movie Watchlist",
